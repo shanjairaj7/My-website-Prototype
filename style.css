@@ -1,0 +1,262 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Proxima Nova";
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+nav{
+  width: 80%;
+  margin: auto;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-right{
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.nav-right li{
+  list-style: none;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-right li:nth-last-child(1) a{
+  background: linear-gradient(to top left,#139599,#00e0c2);
+  height: 40px;
+  width: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 2px;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-right a{
+  color: black;
+  font-weight: bold;
+}
+
+main{
+  width:56%;
+  margin: 100px auto;
+}
+
+section h1{
+  font-weight: lighter;
+  font-size: 100px;
+  line-height: 100px;
+} 
+
+section h1::before{
+  content: "";
+  display: table;
+  clear: both;
+  position: absolute;
+  background: #05d4db;
+  top: 54%;
+  left: 70%;
+  height: 4px;
+  width: 125px;
+  border-radius: 3px;
+}
+
+.random-shape{
+  height: 200px;
+  width: 150px;
+  background: #00e0c2;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  z-index: -1;
+}
+
+.cta{
+  margin-top: 70px;
+  background: #05d4db;
+  height: 50px;
+  width: 150px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Proxima Nova";
+  border: none;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.76);
+  cursor: pointer;
+}
+
+.cta a{
+  color: black;
+}
+
+.cta-input{
+  height: 50px;
+  width: 200px;
+  margin-right: 10px;
+  border-radius: 3px;
+  border: 1px solid #05d4db;
+  padding: 0px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Proxima Nova";
+}
+main{
+  width: 56%;
+  margin: 50px auto;
+}
+
+section img{
+  width: 50%;
+}
+
+section p{
+  display: inline-block;
+  margin-left: 30px;
+  height: 100px;
+}
+
+.youtube-section{
+  display: flex;
+}
+
+.youtube-section p::after{
+  content: "";
+  clear: both;
+  background: #00e0c2;
+  height: 2px;
+  width: 150px;
+  position: absolute;
+  top: 37%;
+  right: 22%;
+  border-radius: 3px;
+}
+
+.social-media{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 25px auto;
+}
+
+.about_{
+  font-weight: bold;
+}
+
+.skillset{
+  color: #05d4db;
+}
+
+.social-media li{
+  list-style: none;
+}
+
+.social-media a{
+  color: black;
+  font-weight: bold;
+  border-bottom: 2px solid #00e0c2;
+}
+
+.progress{
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+.image-shape{
+  background: #00e0c2;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  z-index: -1;
+}
+
+form{
+  background: #05d4db;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex-direction: column;
+  height: 65vh;
+  border-radius: 3px;
+  filter: drop-shadow(10px 10px 10px 10px black);
+  margin-top: 
+}
+input,textarea{
+  width: 90%;
+  margin: 0 auto;
+}
+
+input{
+  font-family: "Proxima Nova";
+}
+.name{
+  margin-top: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  padding: 0px 10px;
+  font-weight: bold;
+}
+
+.email{
+  margin-top: 10px;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  padding: 0px 10px;
+  font-family: "Proxima Nova";
+  font-weight: bold;
+}
+
+.message{
+  margin-top: 10px;
+  height: 250px;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 10px;
+  font-family: "Proxima Nova";
+  font-weight: bold;
+}
+
+.cta-submit{
+  width: 200px;
+  margin: 30px 250px;
+}
+
+.input-shape{
+  background: #139599;
+  height: 50px;
+  width: 300px;
+  position: absolute;
+  top: 14%;
+  left: 20%;
+  z-index: -1;
+}
+.shape2{
+  top: 74%;
+  left: 60%;
+}
+
+@keyframes animationUp{
+  from{
+    margin-bottom: -50px;
+  }
+  to{
+    display: none;
+  }
+}
